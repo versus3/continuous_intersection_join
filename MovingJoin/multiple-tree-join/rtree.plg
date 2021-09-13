@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: rtree - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Dan\LOCALS~1\Temp\RSP1B0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/rtree.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Research\Code\MO_Join\Copy of multiple-tree-join2\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Dan\LOCALS~1\Temp\RSP1B0.tmp" 
+Creating temporary file "C:\DOCUME~1\Dan\LOCALS~1\Temp\RSP1B1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/rtree.pdb" /machine:I386 /out:"Release/rtree.exe" 
+".\Release\blk_file.obj"
+".\Release\buff.obj"
+".\Release\cache.obj"
+".\Release\entry.obj"
+".\Release\functions.obj"
+".\Release\heap.obj"
+".\Release\join.obj"
+".\Release\linlist.obj"
+".\Release\main.obj"
+".\Release\metrics.obj"
+".\Release\rtnode.obj"
+".\Release\rtree.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Dan\LOCALS~1\Temp\RSP1B1.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+D:\Research\Code\MO_Join\Copy of multiple-tree-join2\main.cpp(164) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+D:\Research\Code\MO_Join\Copy of multiple-tree-join2\main.cpp(480) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+D:\Research\Code\MO_Join\Copy of multiple-tree-join2\main.cpp(186) : warning C4101: 'j' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+rtree.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
